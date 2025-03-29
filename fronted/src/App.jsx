@@ -7,7 +7,6 @@ function App() {
   return (
     <>
     <Joker/>
-    <Joker name="nishan Singh"/>
     </>
   )
 }
