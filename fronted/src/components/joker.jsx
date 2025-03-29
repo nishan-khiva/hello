@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 
 
-function Joker({name}) {
+function Joker() {
     let [joke, setJoke] = useState({ } );
     const URL = "https://official-joke-api.appspot.com/random_joke";
 
@@ -25,7 +25,7 @@ function Joker({name}) {
 
     return (
         <>
-            <h2>This is {name} page</h2>
+            <h2>This is  page</h2>
             <h3>{joke.setup}</h3>
             <h3>{joke.punchline}</h3>
             <button onClick={getNewjoke}>click me</button>
